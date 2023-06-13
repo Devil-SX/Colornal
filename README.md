@@ -26,7 +26,7 @@ cs.draw()
 
 Then you can see
 
-![](./example.png)
+![example](./example.png)
 
 # Todo list
 - [x] Signal to Color band
