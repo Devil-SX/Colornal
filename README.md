@@ -1,14 +1,27 @@
 <h1 align="center">
-Colornal
+Colta
 </h1>
 
 <p align="center">
-Make your signals colorful!
+Find the relationship between colors from a data-view~
 </p>
 
-Visualize your signals as color band!
+
+# Features
+
+- map signal to color band [Colornal.py](./Colornal.py)
+- visualize image's colors with 3d [color_visual.py](./color_visual.py)
+
+# Requirements
+
+- Python
+- numpy
+- ploty
+- streamlit
 
 # Example
+
+## Useage of Colornal class
 
 ```Python
 import numpy as np
@@ -26,7 +39,22 @@ cs.draw()
 
 Then you can see
 
-![example](./example.png)
+![example](./pics/example.png)
+
+## colorvisual.py
+
+```
+streamlit run colorvisual.py
+```
+
+or
+
+```
+python -m streamlit run colorvisual.py
+```
+
+![3的](./pics/3d.png)
+
 
 # Todo list
 - [x] Signal to Color band

@@ -38,6 +38,7 @@ class Colornal:
         # Draw
         x = np.linspace(0, 1, self.__N)
         fig, axs = plt.subplots(4,1,figsize=(5,8))
+        # ax0,1,2,3 for Hue, Lightness, Saturation, Colorband
         axs[0].plot(x, self.h, color='black')
         axs[0].set_title('Hue')
         axs[0].set_ylim(0,1.1)
